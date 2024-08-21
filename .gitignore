@@ -1,5 +1,11 @@
 *
 !.gitignore
-!yabai
-!nvim
-!ranger
+
+!yabai/
+!yabai/**
+
+!nvim/
+!nvim/**
+
+!ranger/
+!ranger/**
