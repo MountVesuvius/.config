@@ -9,3 +9,6 @@
 
 !ranger/
 !ranger/**
+
+!skhd/
+!skhd/**

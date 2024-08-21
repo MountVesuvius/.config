@@ -1,0 +1,25 @@
+# Handling Window Focus
+
+# Window focus
+alt - i : yabai -m window --focus north || yabai -m display --focus north 
+alt - k : yabai -m window --focus south || yabai -m display --focus south 
+alt - l : yabai -m window --focus east || yabai -m display --focus east 
+alt - j : yabai -m window --focus west || yabai -m display --focus west
+
+# Move window and keep focus (maybe make this warp..?)
+alt + shift - i : yabai -m window --swap north || $(yabai -m window --display north; yabai -m display --focus north)
+alt + shift - k : yabai -m window --swap south || $(yabai -m window --display south; yabai -m display --focus south)
+alt + shift - l : yabai -m window --swap east  || $(yabai -m window --display east; yabai -m display --focus east)
+alt + shift - j : yabai -m window --swap west  || $(yabai -m window --display west; yabai -m display --focus west)
+
+# Layout movement
+# not sure about these yet, they are kind of clunky
+alt + shift - y : yabai -m space --mirror y-axis
+alt + shift - x : yabai -m space --mirror x-axis
+alt + shift - u : yabai -m space --rotate 270
+
+# Maximie fullscreen
+shift + alt - space : yabai -m window --toggle zoom-fullscreen
+
+# Equalize windows again (probably won't use much but still good to have)
+shift + alt - e : yabai -m space --balance
