@@ -1,3 +1,5 @@
+# reload with:
+# skhd --restart-service
 # Handling Window Focus
 
 # Window focus
@@ -19,7 +21,15 @@ alt + shift - x : yabai -m space --mirror x-axis
 alt + shift - u : yabai -m space --rotate 270
 
 # Maximie fullscreen
-shift + alt - space : yabai -m window --toggle zoom-fullscreen
+alt + shift - space : yabai -m window --toggle zoom-fullscreen
+
+# Create a new space
+alt + shift - n : yabai -m space --create
+alt + shift - x : yabai -m space --destroy
+alt + shift - m : yabai -m space --focus recent
+# Moving around spaces
+alt + ctrl - l : yabai -m space --focus next
+alt + ctrl - j : yabai -m space --focus prev
 
 # Equalize windows again (probably won't use much but still good to have)
 shift + alt - e : yabai -m space --balance
