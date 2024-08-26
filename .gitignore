@@ -4,6 +4,9 @@
 !yabai/
 !yabai/**
 
+!sketchybar/
+!sketchybar/**
+
 !nvim/
 !nvim/**
 

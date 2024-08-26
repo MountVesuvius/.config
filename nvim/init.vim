@@ -75,6 +75,7 @@ source ~/.config/nvim/plugin-config/plugin-keybinds.vim
 " Colorscheme
 syntax on
 set t_Co=256
+set termguicolors
 colorscheme cyberdream 
 " colorscheme midnight
 " colorscheme catppuccin-frappe
